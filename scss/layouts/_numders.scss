@@ -1,0 +1,50 @@
+.numbers {
+  background-image: url(../../image/number-fone.png);
+  padding-top: 72px;
+  padding-bottom: 69px;
+  text-align: center;
+  background: rgba(2, 12, 33, 1);
+
+}
+.numbers-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 57px;
+}
+.numbers-pretitle {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5;
+  color: rgba(224, 224, 224, 1);
+  margin-bottom: 15px;
+}
+.numbers-list {
+  display: flex;
+  flex-direction: column;
+}
+.numbers-item {
+}
+.numbers-statistics {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.15;
+  letter-spacing: 0%;
+  color: rgba(221, 34, 66, 1);
+  margin-bottom: 5px;
+}
+.numbers-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(224, 224, 224, 1);
+  margin-bottom: 80px;
+}

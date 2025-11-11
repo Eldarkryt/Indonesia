@@ -1,0 +1,285 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 0 15px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+    border: 1px solid blue;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    border: 1px solid green;
+  }
+}
+
+.rest {
+  background-image: url(../../image/second-fon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: linear-gradient(180deg, #010a20 0%, rgba(1, 10, 32, 0) 100%);
+  padding-top: 40px;
+  padding-bottom: 56px;
+  text-align: start;
+}
+@media screen and (min-width: 1200px) {
+  .rest {
+    padding-top: 207px;
+    padding-bottom: 241px;
+  }
+}
+
+.first-rest-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+  .first-rest-list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 192px;
+  }
+}
+
+.second-rest-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+@media screen and (min-width: 1200px) {
+  .second-rest-list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.first-rest-img {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 34px;
+}
+@media screen and (min-width: 1200px) {
+  .first-rest-img {
+    width: 630px;
+    height: 460px;
+    margin-right: 130px;
+    border-radius: 10px;
+    margin-right: 130px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.second-rest-img {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 34px;
+}
+@media screen and (min-width: 1200px) {
+  .second-rest-img {
+    width: 630px;
+    height: 460px;
+    border-radius: 10px;
+  }
+}
+
+.rest-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1, 15;
+  letter-spacing: 0%;
+  margin-bottom: 1px;
+}
+@media screen and (min-width: 1200px) {
+  .rest-title {
+    margin-bottom: 4px;
+  }
+}
+
+.rest-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 2;
+  letter-spacing: 0.5px;
+  margin-bottom: 1px;
+}
+@media screen and (min-width: 1200px) {
+  .rest-text {
+    margin-bottom: 0;
+  }
+}
+
+.rest-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 32px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 108px;
+  padding-right: 108px;
+  border: none;
+  color: #fff;
+  margin-top: 59px;
+  margin-bottom: 56px;
+  background-color: rgb(221, 34, 66);
+}
+@media screen and (min-width: 1200px) {
+  .rest-btn {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 41px;
+    padding-right: 41px;
+  }
+}
+
+.explore-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(1, 10, 32);
+}
+
+.numbers {
+  background-image: url(../../image/number-fone.png);
+  padding-top: 72px;
+  padding-bottom: 69px;
+  text-align: center;
+  background: rgb(2, 12, 33);
+}
+
+.numbers-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0%;
+  color: rgb(255, 255, 255);
+  margin-bottom: 57px;
+}
+
+.numbers-pretitle {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5;
+  color: rgb(224, 224, 224);
+  margin-bottom: 15px;
+}
+
+.numbers-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.numbers-statistics {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.15;
+  letter-spacing: 0%;
+  color: rgb(221, 34, 66);
+  margin-bottom: 5px;
+}
+
+.numbers-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgb(224, 224, 224);
+  margin-bottom: 80px;
+}
+
+.maps {
+  padding-top: 171px;
+  padding-bottom: 116px;
+  text-align: center;
+}
+
+.maps-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0%;
+  margin-bottom: 36px;
+}
+
+.maps-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5;
+  margin-bottom: 41px;
+}
+
+.maps-btn {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 32px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 108px;
+  padding-right: 108px;
+  border: none;
+  color: #fff;
+  margin-top: 59px;
+  margin-bottom: 56px;
+  background-color: rgb(221, 34, 66);
+}
