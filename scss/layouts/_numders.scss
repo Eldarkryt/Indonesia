@@ -4,6 +4,10 @@
   padding-bottom: 69px;
   text-align: center;
   background: rgba(2, 12, 33, 1);
+   @media screen and (min-width: 1200px) {
+    padding-top: 201px;
+    padding-bottom: 225px;
+  }
 
 }
 .numbers-title {
@@ -14,6 +18,9 @@
   letter-spacing: 0%;
   color: rgba(255, 255, 255, 1);
   margin-bottom: 57px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 37px;
+  }
 }
 .numbers-pretitle {
   font-family: "DM Sans", sans-serif;
@@ -23,10 +30,19 @@
   letter-spacing: 0.5;
   color: rgba(224, 224, 224, 1);
   margin-bottom: 15px;
+  @media screen and (min-width: 1200px) {
+  margin-bottom: 39px;
+  margin-right: 380px;
+  margin-left: 380px;
+  }
 }
 .numbers-list {
   display: flex;
   flex-direction: column;
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    gap: 127px;
+  }
 }
 .numbers-item {
 }

@@ -33,7 +33,7 @@ a {
 }
 
 .rest {
-  background-image: url(../../image/second-fon.png);
+  background-image: url();
   background-repeat: no-repeat;
   background-position: center;
   background-color: linear-gradient(180deg, #010a20 0%, rgba(1, 10, 32, 0) 100%);
@@ -190,6 +190,12 @@ a {
   text-align: center;
   background: rgb(2, 12, 33);
 }
+@media screen and (min-width: 1200px) {
+  .numbers {
+    padding-top: 201px;
+    padding-bottom: 225px;
+  }
+}
 
 .numbers-title {
   font-family: "DM Sans", sans-serif;
@@ -199,6 +205,11 @@ a {
   letter-spacing: 0%;
   color: rgb(255, 255, 255);
   margin-bottom: 57px;
+}
+@media screen and (min-width: 1200px) {
+  .numbers-title {
+    margin-bottom: 37px;
+  }
 }
 
 .numbers-pretitle {
@@ -210,6 +221,13 @@ a {
   color: rgb(224, 224, 224);
   margin-bottom: 15px;
 }
+@media screen and (min-width: 1200px) {
+  .numbers-pretitle {
+    margin-bottom: 39px;
+    margin-right: 380px;
+    margin-left: 380px;
+  }
+}
 
 .numbers-list {
   display: -webkit-box;
@@ -219,6 +237,15 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+  .numbers-list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 127px;
+  }
 }
 
 .numbers-statistics {
@@ -246,6 +273,12 @@ a {
   padding-bottom: 116px;
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .maps {
+    padding-top: 249px;
+    padding-bottom: 256px;
+  }
+}
 
 .maps-title {
   font-family: "DM Sans", sans-serif;
@@ -255,6 +288,12 @@ a {
   letter-spacing: 0%;
   margin-bottom: 36px;
 }
+@media screen and (min-width: 1200px) {
+  .maps-title {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
 
 .maps-text {
   font-family: "DM Sans", sans-serif;
@@ -263,6 +302,12 @@ a {
   line-height: 24px;
   letter-spacing: 0.5;
   margin-bottom: 41px;
+}
+@media screen and (min-width: 1200px) {
+  .maps-text {
+    margin-left: 390px;
+    margin-right: 390px;
+  }
 }
 
 .maps-btn {
@@ -282,4 +327,80 @@ a {
   margin-top: 59px;
   margin-bottom: 56px;
   background-color: rgb(221, 34, 66);
+}
+@media screen and (min-width: 1200px) {
+  .maps-btn {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-right: 56px;
+    padding-left: 56px;
+  }
+}
+
+.live {
+  background-image: url();
+  padding-top: 83px;
+  padding-bottom: 2px;
+  text-align: center;
+}
+
+.live-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.video-img {
+  width: 100%;
+  margin-top: 50px;
+}
+@media screen and (min-width: 1200px) {
+  .video-img {
+    width: 1056px;
+    height: 594px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .live-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.list-img {
+  width: 100%;
+  margin-top: 40px;
+}
+@media screen and (min-width: 1200px) {
+  .list-img {
+    width: 234px;
+    height: 151px;
+    border-radius: 5px;
+  }
+}
+
+.live-pretitle {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.live-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
 }

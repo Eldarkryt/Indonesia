@@ -2,6 +2,10 @@
   padding-top: 171px;
   padding-bottom: 116px;
   text-align: center;
+   @media screen and (min-width: 1200px) {
+    padding-top: 249px;
+    padding-bottom: 256px;
+  }
 }
 .maps-title {
   font-family: "DM Sans", sans-serif;
@@ -10,17 +14,25 @@
   line-height: 46px;
   letter-spacing: 0%;
   margin-bottom: 36px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
 }
 .maps-text {
-    font-family: "DM Sans",sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.5;
-margin-bottom: 41px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5;
+  margin-bottom: 41px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 390px;
+    margin-right: 390px;
+  }
 }
 .maps-btn {
-      font-family: "DM Sans", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 150%;
@@ -36,4 +48,10 @@ margin-bottom: 41px;
   margin-top: 59px;
   margin-bottom: 56px;
   background-color: rgba(221, 34, 66, 1);
+  @media screen and (min-width: 1200px) {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-right: 56px;
+    padding-left: 56px;
+  }
 }
