@@ -1,18 +1,14 @@
 .rest {
-   background-image: url();
-   background-repeat: no-repeat;
+  background-image:linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0) 100%), url(../../image/doroga.png), url(../../image/plash.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  background-color: linear-gradient(
-    180deg,
-    #010a20 0%,
-     rgba(1, 10, 32, 0) 100%
-   );
   padding-top: 40px;
   padding-bottom: 56px;
   text-align: start;
   @media screen and (min-width: 1200px) {
     padding-top: 207px;
-  padding-bottom: 241px;
+    padding-bottom: 241px;
   }
 }
 .first-rest-list {
@@ -78,7 +74,7 @@
   letter-spacing: 0.5px;
   margin-bottom: 1px;
   @media screen and (min-width: 1200px) {
-   margin-bottom: 0;
+    margin-bottom: 0;
   }
 }
 .rest-btn {
