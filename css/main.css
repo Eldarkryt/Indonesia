@@ -192,7 +192,7 @@ a {
 }
 
 .numbers {
-  background-image: url(../../image/number-fone.png);
+  background-image: url(./../image/number-fone.png);
   padding-top: 72px;
   padding-bottom: 69px;
   text-align: center;
@@ -277,7 +277,7 @@ a {
 }
 
 .maps {
-  background-image: url(../../image/maps-fone-mob.png);
+  background-image: url(./../image/maps-fone-mob.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -287,7 +287,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .maps {
-    background-image: url(../../image/maps-fone-desktop.png);
+    background-image: url(./../image/maps-fone-desktop.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
