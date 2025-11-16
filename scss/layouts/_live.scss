@@ -1,8 +1,18 @@
 .live {
-  background-image: url();
+  background-color: black;
+  background-image:  url(../../image/live-fon-mob.png);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 83px;
   padding-bottom: 2px;
-  text-align: center;
+  @media screen and (min-width: 1200px) {
+      background-color: black;
+      background-image: url(../../image/live-fon-desk.png);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
 }
 .live-title {
   font-family: "DM Sans", sans-serif;
@@ -12,6 +22,7 @@
   letter-spacing: 0%;
   margin-left: 100px;
   margin-right: 100px;
+    color: #fff;
 }
 .video-img {
   width: 100%;
@@ -44,6 +55,7 @@
   font-size: 22px;
   line-height: 150%;
   letter-spacing: 0%;
+    color: #fff;
 }
 .live-text {
   font-family: "DM Sans", sans-serif;
@@ -51,4 +63,11 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
+    color: #fff;
+}
+.first-group-live{
+
+}
+.second-group-live{
+
 }

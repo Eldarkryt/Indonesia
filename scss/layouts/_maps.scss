@@ -1,8 +1,16 @@
 .maps {
+  background-image: url(../../image/maps-fone-mob.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 171px;
   padding-bottom: 116px;
   text-align: center;
    @media screen and (min-width: 1200px) {
+      background-image: url(../../image/maps-fone-desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     padding-top: 249px;
     padding-bottom: 256px;
   }

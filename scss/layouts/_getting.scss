@@ -1,0 +1,43 @@
+.getting {
+}
+.getting-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.getting-list {
+  counter-reset: num;
+}
+
+.getting-item{
+  list-style: none;
+  counter-increment: num;
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+.getting-item::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 28px;
+  height: 28px;
+  background: #e24a4a;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.getting-item {
+}
+.getting-pretitle {
+}
+.getting-text {
+}
+.getting-btn {
+}
