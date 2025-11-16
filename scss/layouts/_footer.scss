@@ -3,11 +3,19 @@
   padding-bottom: 84px;
   background-color: rgba(1, 10, 32, 1);
   text-align: center;
+  @media screen and (min-width: 1200px) {
+    padding-top: 39px;
+    padding-bottom: 31px;
+     
+  }
 }
 .footer-logo {
   margin-bottom: 36px;
 }
 .footer-list {
+    @media screen and (min-width: 1200px) {
+       
+  }
 }
 .footer-item {
   margin-bottom: 36px;
@@ -21,32 +29,30 @@
   color: rgba(255, 255, 255, 1);
 }
 .footer-list-programs {
-     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 48px;
-    margin-bottom: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 36px;
 }
 .program-item {
-   
 }
 .program-link {
-    
 }
 .program-svg-facebook {
-width: 21px;
-height: 21px;
-fill: #fff;
+  width: 21px;
+  height: 21px;
+  fill: #fff;
 }
-.program-svg-linkedin{
-width: 21px;
-height: 21px;
-fill: #fff;
+.program-svg-linkedin {
+  width: 21px;
+  height: 21px;
+  fill: #fff;
 }
-.program-svg-google{
-width: 18px;
-height: 18px;
-fill: #fff;
+.program-svg-google {
+  width: 18px;
+  height: 18px;
+  fill: #fff;
 }
 .footer-copyright {
   font-family: "DM Sans", sans-serif;

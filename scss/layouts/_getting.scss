@@ -20,6 +20,7 @@
   padding-left: 40px;
 }
 .getting-item::before {
+  content: counter(num);
   position: absolute;
   left: 0;
   top: 0;

@@ -33,8 +33,9 @@ a {
 }
 
 .rest {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 10, 32, 0.5)), to(rgba(1, 10, 32, 0.5))), url(../../image/bg-rest.png), url(../../image/plash.png);
-  background-image: linear-gradient(180deg, rgba(1, 10, 32, 0.5), rgba(1, 10, 32, 0.5)), url(../../image/bg-rest.png), url(../../image/plash.png);
+  background-color: black;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 10, 32, 0.5)), to(rgba(1, 10, 32, 0.5))), url(./../image/bg-rest.png);
+  background-image: linear-gradient(180deg, rgba(1, 10, 32, 0.5), rgba(1, 10, 32, 0.5)), url(./../image/bg-rest.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -354,17 +355,18 @@ a {
 
 .live {
   background-color: black;
-  background-image: url(../../image/live-fon-mob.png);
+  background-image: url(./../image/live-fon-mob.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 83px;
   padding-bottom: 2px;
+  text-align: center;
 }
 @media screen and (min-width: 1200px) {
   .live {
     background-color: black;
-    background-image: url(../../image/live-fon-desk.png);
+    background-image: url(./../image/live-fon-desk.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -570,6 +572,7 @@ a {
 }
 
 .getting-item::before {
+  content: counter(num);
   position: absolute;
   left: 0;
   top: 0;
@@ -595,6 +598,12 @@ a {
   padding-bottom: 84px;
   background-color: rgb(1, 10, 32);
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding-top: 39px;
+    padding-bottom: 31px;
+  }
 }
 
 .footer-logo {

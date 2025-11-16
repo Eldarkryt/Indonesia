@@ -1,14 +1,15 @@
 .live {
   background-color: black;
-  background-image:  url(../../image/live-fon-mob.png);
+  background-image:  url(./../image/live-fon-mob.png);
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 83px;
   padding-bottom: 2px;
+  text-align: center;
   @media screen and (min-width: 1200px) {
       background-color: black;
-      background-image: url(../../image/live-fon-desk.png);
+      background-image: url(./../image/live-fon-desk.png);
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
