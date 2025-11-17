@@ -2,23 +2,39 @@
   padding-top: 147px;
   padding-bottom: 84px;
   background-color: rgba(1, 10, 32, 1);
-  text-align: center;
   @media screen and (min-width: 1200px) {
     padding-top: 39px;
     padding-bottom: 31px;
-     
+  }
+}
+.footer-div {
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
   }
 }
 .footer-logo {
   margin-bottom: 36px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    margin-right: 50px;
+  }
 }
 .footer-list {
-    @media screen and (min-width: 1200px) {
-       
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    margin-top: 20px;
+    margin-right: 250px;
   }
 }
 .footer-item {
   margin-bottom: 36px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
 }
 .footer-link {
   font-family: "DM Sans", sans-serif;
@@ -27,6 +43,9 @@
   line-height: 28px;
   letter-spacing: 0.5px;
   color: rgba(255, 255, 255, 1);
+  @media screen and (min-width: 1200px) {
+    text-align: none;
+  }
 }
 .footer-list-programs {
   display: flex;
@@ -34,6 +53,12 @@
   justify-content: center;
   gap: 48px;
   margin-bottom: 36px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    margin-right: 50px;
+    margin-top: 25px;
+    gap: 22px;
+  }
 }
 .program-item {
 }
@@ -43,16 +68,28 @@
   width: 21px;
   height: 21px;
   fill: #fff;
+  @media screen and (min-width: 1200px) {
+    width: 17px;
+    height: 17px;
+  }
 }
 .program-svg-linkedin {
   width: 21px;
   height: 21px;
   fill: #fff;
+  @media screen and (min-width: 1200px) {
+    width: 16px;
+    height: 16px;
+  }
 }
 .program-svg-google {
   width: 18px;
   height: 18px;
   fill: #fff;
+  @media screen and (min-width: 1200px) {
+    width: 14px;
+    height: 14px;
+  }
 }
 .footer-copyright {
   font-family: "DM Sans", sans-serif;
@@ -61,4 +98,8 @@
   line-height: 28px;
   letter-spacing: 0.5px;
   color: rgba(255, 255, 255, 1);
+  @media screen and (min-width: 1200px) {
+    text-align: end;
+    margin-top: 20px;
+  }
 }
