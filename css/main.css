@@ -22,13 +22,11 @@ a {
 @media screen and (min-width: 480px) {
   .container {
     max-width: 480px;
-    border: 1px solid blue;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
-    border: 1px solid green;
   }
 }
 
@@ -149,9 +147,6 @@ a {
 }
 
 .rest-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -168,9 +163,6 @@ a {
   margin-top: 59px;
   margin-bottom: 56px;
   background-color: rgb(221, 34, 66);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 @media screen and (min-width: 1200px) {
   .rest-btn {
@@ -178,6 +170,30 @@ a {
     padding-bottom: 16px;
     padding-left: 41px;
     padding-right: 41px;
+  }
+}
+
+.explore {
+  padding-top: 98px;
+}
+@media screen and (min-width: 1200px) {
+  .explore {
+    padding-top: 127px;
+  }
+}
+
+.fone-explore-number {
+  background-image: url(../../image/explore&number.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (min-width: 1200px) {
+  .fone-explore-number {
+    background-image: url(../../image/explore&number-desk.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }
 
@@ -189,14 +205,70 @@ a {
   letter-spacing: 0%;
   text-align: center;
   color: rgb(1, 10, 32);
+  margin-bottom: 23px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.explore-img-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 32px;
+  margin-bottom: 933px;
+}
+
+.first-img-explore {
+  width: 100%;
+  margin-bottom: 728px;
+  margin-left: 50px;
+}
+@media screen and (min-width: 1200px) {
+  .first-img-explore {
+    display: none;
+  }
+}
+
+.second-img-explore {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .second-img-explore {
+    display: block;
+    width: 100%;
+  }
+}
+
+.third-img-explore {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .third-img-explore {
+    display: block;
+    width: 100%;
+  }
+}
+
+.four-img-explore {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .four-img-explore {
+    display: block;
+    width: 100%;
+  }
 }
 
 .numbers {
-  background-image: url(./../image/number-fone.png);
+  background: rgba(2, 12, 33, 0.86);
+  background-image: url();
   padding-top: 72px;
   padding-bottom: 69px;
   text-align: center;
-  background: rgb(2, 12, 33);
 }
 @media screen and (min-width: 1200px) {
   .numbers {
@@ -539,6 +611,11 @@ a {
   height: auto;
 }
 
+.getting {
+  padding-top: 29px;
+  padding-bottom: 32px;
+}
+
 .getting-title {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -546,6 +623,7 @@ a {
   line-height: 46px;
   letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 120px;
 }
 
 .getting-list {
@@ -563,11 +641,11 @@ a {
 .getting-item::before {
   content: counter(num);
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 28px;
-  height: 28px;
-  background: #e24a4a;
+  left: 200px;
+  bottom: 120px;
+  width: 50px;
+  height: 50px;
+  background: rgb(221, 34, 66);
   border-radius: 50%;
   color: white;
   display: -webkit-box;
@@ -580,6 +658,46 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.getting-summary {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgb(221, 34, 66);
+  list-style: none;
+}
+
+.getting-pretitle {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.getting-pretitle-third {
+  display: none;
+}
+
+.getting-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(21, 20, 57, 0.4);
 }
 
 .footer {

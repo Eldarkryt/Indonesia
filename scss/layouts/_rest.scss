@@ -87,7 +87,6 @@
   }
 }
 .rest-btn {
-  display: flex;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -104,7 +103,6 @@
   margin-top: 59px;
   margin-bottom: 56px;
   background-color: rgba(221, 34, 66, 1);
-  justify-content: center;
   @media screen and (min-width: 1200px) {
     padding-top: 16px;
     padding-bottom: 16px;

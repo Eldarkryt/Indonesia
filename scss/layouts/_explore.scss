@@ -1,11 +1,65 @@
 .explore {
+  padding-top: 98px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 127px;
+  }
+}
+.fone-explore-number{
+background-image: url(../../image/explore&number.png);
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+  @media screen and (min-width: 1200px) {
+   background-image: url(../../image/explore&number-desk.png);
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+  }
 }
 .explore-title {
-  font-family: "DM Sans",sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 50px;
   line-height: 150%;
   letter-spacing: 0%;
   text-align: center;
   color: rgba(1, 10, 32, 1);
+  margin-bottom: 23px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.explore-img-list {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+ margin-bottom: 933px;
+}
+.first-img-explore {
+  width: 100%;
+  margin-bottom: 728px;
+  margin-left: 50px;
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
+.second-img-explore {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+     width: 100%;
+  }
+}
+.third-img-explore {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+     width: 100%;
+  }
+}
+.four-img-explore {
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: block;
+     width: 100%;
+  }
 }

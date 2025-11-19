@@ -1,4 +1,6 @@
 .getting {
+  padding-top: 29px;
+  padding-bottom: 32px;
 }
 .getting-title {
   font-family: "DM Sans", sans-serif;
@@ -7,12 +9,13 @@
   line-height: 46px;
   letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 120px;
 }
 .getting-list {
   counter-reset: num;
 }
 
-.getting-item{
+.getting-item {
   list-style: none;
   counter-increment: num;
   position: relative;
@@ -22,23 +25,59 @@
 .getting-item::before {
   content: counter(num);
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 28px;
-  height: 28px;
-  background: #e24a4a;
+  left: 200px;
+  bottom: 120px;
+  width: 50px;
+  height: 50px;
+  background: rgba(221, 34, 66, 1);
   border-radius: 50%;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.getting-summary {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(221, 34, 66, 1);
+  list-style: none;
+  
 }
 .getting-item {
 }
+.getting-img{
+}
 .getting-pretitle {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  
+}
+.getting-pretitle-third {
+  display: none;
 }
 .getting-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(21, 20, 57, 0.4);
 }
 .getting-btn {
 }
