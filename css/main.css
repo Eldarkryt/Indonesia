@@ -33,14 +33,14 @@ a {
 }
 
 .header-hero-fone {
-  background-image: linear-gradient(215.79deg, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.29)), url(../../image/header-hero-mob.png);
+  background-image: linear-gradient(215.79deg, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.29)), url(./../image/header-hero-mob.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media screen and (min-width: 1200px) {
   .header-hero-fone {
-    background-image: linear-gradient(215.79deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%), url(../../image/header-hero-mob.png);
+    background-image: linear-gradient(215.79deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%), url(./../image/header-hero-mob.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
